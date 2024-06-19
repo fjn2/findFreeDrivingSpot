@@ -1,0 +1,75 @@
+{
+  "data": {
+    "bundles": [
+      {
+        "occasions": [
+          {
+            "examinationId": null,
+            "examinationCategory": 2,
+            "duration": {
+              "start": "2024-06-26T13:45:00+02:00",
+              "end": "2024-06-26T14:30:00+02:00"
+            },
+            "examinationTypeId": 12,
+            "locationId": 1000108,
+            "occasionChoiceId": 1,
+            "vehicleTypeId": 2,
+            "languageId": 13,
+            "tachographTypeId": 1,
+            "name": "Körprov B",
+            "properties": null,
+            "date": "2024-06-26",
+            "time": "13:45",
+            "locationName": "Arjeplog",
+            "cost": "1 600 kr",
+            "costText": " (med bil)",
+            "increasedFee": false,
+            "isEducatorBooking": null,
+            "isLateCancellation": false,
+            "isOutsideValidDuration": false,
+            "isUsingTaxiKnowledgeValidDuration": false,
+            "placeAddress": null,
+            "placeCoordinate": null
+          }
+        ],
+        "cost": "1 600 kr"
+      },
+      {
+        "occasions": [
+          {
+            "examinationId": null,
+            "examinationCategory": 2,
+            "duration": {
+              "start": "2024-08-14T13:45:00+02:00",
+              "end": "2024-08-14T14:30:00+02:00"
+            },
+            "examinationTypeId": 12,
+            "locationId": 1000108,
+            "occasionChoiceId": 1,
+            "vehicleTypeId": 2,
+            "languageId": 13,
+            "tachographTypeId": 1,
+            "name": "Körprov B",
+            "properties": null,
+            "date": "2024-08-14",
+            "time": "13:45",
+            "locationName": "Arjeplog",
+            "cost": "1 600 kr",
+            "costText": " (med bil)",
+            "increasedFee": false,
+            "isEducatorBooking": null,
+            "isLateCancellation": false,
+            "isOutsideValidDuration": false,
+            "isUsingTaxiKnowledgeValidDuration": false,
+            "placeAddress": null,
+            "placeCoordinate": null
+          }
+        ],
+        "cost": "1 600 kr"
+      }
+    ],
+    "searchedMonths": 3
+  },
+  "status": 200,
+  "url": "http://fps-pab-public.trafikverket.local/boka/occasion-bundles"
+}
