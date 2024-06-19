@@ -1,5 +1,5 @@
 const fpsExternalIdentity = process.env.FPS_EXTERNAL_IDENTITY
-
+const socialSecurityNumber = process.env.SOCIAL_SECURITY_NUMBER
 function getTimeSlot(locationId) {
   return fetch('https://fp.trafikverket.se/boka/occasion-bundles', {
     method: 'POST',
@@ -24,7 +24,7 @@ function getTimeSlot(locationId) {
     },
     body: JSON.stringify({
       bookingSession: {
-        socialSecurityNumber: '19901205-6470',
+        socialSecurityNumber,
         licenceId: 5,
         bookingModeId: 0,
         ignoreDebt: false,

@@ -59,7 +59,7 @@ function SlotsManager(locationIds = [], amountOfParallelsOperations = 1) {
   function lifeCycle(workerId) {
     if (status === STATUS.RUNNING) {
       const locationId = getLocationId()
-      console.log(`Worker ${workerId}: Executing locationId ${locationId}`)
+      console.log(`Worker ${workerId}: Executing locationId ${locationId} (${currentLocationIndex}/${locationIds.length})`)
       const executeNextOperation = () => {
         setTimeout(() => {
           lifeCycle(workerId)
